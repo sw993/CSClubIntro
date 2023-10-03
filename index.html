@@ -52,8 +52,13 @@
     <span style="color: #00c4ff">B</span><span style="color: #004eff">u</span
     ><span style="color: #2700ff">t</span><span style="color: #9d00ff">t</span
     ><span style="color: #ff00eb">o</span><span style="color: #ff0076">n</span>"
-    onclick="playMusic()" /> <img
-    src:"https://i.pinimg.com/originals/41/a2/a5/41a2a560f6af4ea3e04b487ad9710e2c.jpg">
+    onclick="playMusic()" />
+    <script>
+      function playMusic() {
+        var music = new Audio("/media/sounds/throw.mp3");
+        music.play();
+      }
+    </script>
     <script src="index.js"></script>
   </body>
 </html>
